@@ -1,0 +1,343 @@
+
+
+
+外网面板地址: http://43.163.203.109:8888/tencentcloud
+内网面板地址: http://10.0.0.3:8888/tencentcloud
+*以下仅为初始默认账户密码，若无法登录请执行bt命令重置账户/密码登录
+username: elqpkdds
+password: zhoukaihong,.666666
+若无法访问面板，请检查防火墙/安全组是否有放行面板[8888]端口
+=========================================================
+(自己)日本 腾讯云--宝塔Windows
+ip: 43.163.229.175
+宝塔地址：http://43.163.229.175:8888/ptbsYZsH
+宝塔用户名：vg0gTrjf
+宝塔密码：jXdNSrR6
+
+命令打开远程服务器:mstsc
+腾讯云windows远程:
+默认用户名：Administrator
+登录密码：vE4r2,J+C@k:]
+
+-----------------------------------------------------------------------
+(威哥)韩国 腾讯云--宝塔Windows
+ip:43.163.199.208
+宝塔地址：http://43.163.199.208:8888/tencentcloud
+宝塔用户名：96NC2L5Y
+宝塔密码：Krd3TLrkVBd8
+
+
+(威哥)韩国 腾讯云--宝塔Windows
+ip:43.131.248.102
+宝塔地址：http://43.131.248.102:8888/IPJvjaLA
+宝塔用户名：0N5N0Mbu
+宝塔密码：jQ4KYINZ
+
+美国  腾讯云--宝塔Windows
+http://43.159.149.131:8888/sJSBv758
+waGlPXwx
+G4VsUOGg
+
+量子卡（威哥）
+https://global.qbitnetwork.com/#/sign-in
+账号：18188629089
+密码：Zkh13265969867
+邮箱：373222300@qq.com
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IPCloak安装和广告投放页设置地址：http://新增域名/5k5p_setting.php    密码：lian4157
+ipcloak账号--------------- 13265969867
+ipcloak密码--------------- zhoukaihong,.666666
+
+API秘钥------------ pW8kri51uf7yqWYZOD3mA28j2jDqcHUT
+/www/wwwroot/wkuutct.icu/d2.html  
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+（原生）47号段信用卡：http://47.115.119.11:8090/user/
+账号------------------- yuansheng
+密码------------------- zhoukaihong,.666
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  49/53量子卡 号段信用卡：
+https://global.qbitnetwork.com/#/
+账号：13025892708   
+密码：Zhoukaihong,.666666 
+
+49/53量子卡 号段信用卡：
+（威）https://global.qbitnetwork.com/#/sign-in
+账户：17288558324   
+密码：Qwe888888            
+余额  x  6.95
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+（原生）532959号段信用卡：
+https://portal.adeerpay.biz
+用户名：zhouxyk@protonmail.com
+密码：abc123456
+1000*6.5986*1.03=6796.55
+腾讯文档链接：
+https://docs.qq.com/sheet/DR0VZR3JqT2FQZ2h2?scene=94e26718b404ce9f5e2c319e0qbWm1&_t=1630576965550&tab=BB08J2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+（Divvy）53号段信用卡：
+https://app.divvy.co/companies/Q29tcGFueToxNjE1Nw==/cards/wallet
+账号：P1415299610@gmail.com
+密码：pkh13430190993
+1000*1.05*6.5147=6840.4
+53充值：http://47.115.94.77/pay/
+YUAN
+电话：13265969867
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+（鹏鹏）Amz卡
+https://amzkeys.com/index.php?c=Home&a=index
+账户：i4v6ja9k
+密码：Pkh13430190993
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+朋友圈宝塔
+宝塔地址：http://8.219.157.205:8888/e8a5e755
+用户名：woda1bby
+密码：29a088590af2
+
+绑定的手机号:
+电话：15170032294
+密码：123456789Ztg
+                                   
+
+asp后台
+用户名    administrator
+ip        47.241.164.142
+密码      Pkh13430190993
+域名      puqywtq.icu
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+友盟
+账号：爷傲奈我何l
+密码：123456Lkk
+
+d3视频链接：https://youtu.be/jnJ04hn_p_E
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<script>
+
+ $(document).on('copy', '[name="account"]', function() {
+ 
+     window.location.href = "#jump";
+     
+ })
+     
+ $(document).on('click', '[name="link"]', function() {
+ 
+     window.location.href = "#jump";
+     
+ })
+   
+</script>
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+触发LINE事件代码：
+<script>  
+ 
+  function shijian(){  
+
+   // alert("test"); 
+ 
+  fbq('track', 'AddToCart');  
+ 
+   window.location.href="https://line.me/ti/p/XV5e40qRwa";  
+ 
+   window.event.returnValue =   false;  
+   
+ }  
+// shijian();
+</script> 
+
+这段等于在微信号里的代码：
+
+<a href="javascript:" onclick="shijian()"></a>
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DNS服务器
+dick.dnspod.net
+addison.dnspod.net
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#分析调试网站域名是否有问题
+  https://developers.facebook.com/tools/debug/sharing/
+
+  在测试完毕之后，若是显示违反政策，您会看到"请告诉我们"的指示，
+  您点击打开，就可以进行申诉。
+在申诉的过程注明您们的网站用意，以及公司简介
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+像素代码：
+var number = '<%=notpixed%>'
+var arrnumber = number.split(",")
+var fbqstr = ""
+for(var z=0; z<arrnumber.length; z++){
+      fbqstr += "fbq('init', '"+arrnumber[z]+"');"
+}
+
+document.write('<scr' + 'ipt type="text/javascript">'+
+`!function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    ${fbqstr}
+    fbq('track', 'PageView');`+'</scr' + 'ipt>'+`<noscript><img height="1" width="1" style="display:none;" src="https://www.facebook.com/tr?id=${parseInt(arrnumber[0])}&ev=PageView&noscript=1" /></noscript>`);
+
+
+
+
+www.puqywtq.icu:80,puqywtq.icu:80
+
+
+
+
+Internet 信息服务(IIS)管理器中默认首页：
+index.asp,index.php,index.html,index.htm,index.aspx,default.asp,default.htm,default.html,hello.htm,default.aspx
+
+
+
+
+
+
+
+页面代码
+《1》
+<?php
+require_once('ip_cloak.php');?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+《2》
+<script src="qq.asp"></script>
+<script>
+	$(document).on('copy', '[class="account"]', function() {
+		window.location.href = "#jump";
+	})
+	$(document).on('click', '[name="link"]', function() {
+		window.location.href = "#jump";
+	})
+</script>
+《4》
+<script>
+        var arr_wx = "209号";
+        var a = "4CClXgJxGE"
+        var aLine = ["intent://ti/p/" + a +
+            "#Intent;scheme=line;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=jp.naver.line.android;end"
+        ];
+        
+        var stxlwx = arr_wx;
+        var sLine = aLine;
+
+        // line号
+        function showline1() {
+            fbq('track', 'AddToCart');
+        };
+
+        function showline() {
+            fbq('track', 'AddToCart');
+            window.open(sLine);
+            window.dotq = window.dotq || [];
+            window.dotq.push({
+                'projectId': '10000',
+                'properties': {
+                    'pixelId': '10065376',
+                    'qstrings': {
+                        'et': 'custom',
+                        'ec': '減重',
+                        'ea': 'click1',
+                        'el': '現在點擊按鈕添加老師LINE',
+                        'ev': '1',
+                        'gv': '0'
+                    }
+                }
+            });
+        };
+    </script>
+《4》
+name="link" target="_blank" onclick="showline1()"
+
+
+
+
+
+
+
+
+<!--line链接-->
+<script>
+ var arr_wx =["kqw889"]; //创建line号
+	 	var kfhlja =["https://line.me/ti/p/XV5e40qRwa"]; //创建line号的链接
+	    var wx_index = Math.floor((Math.random() * arr_wx.length)); 
+	    var stxlwx = arr_wx[wx_index];
+	 	var kfhljas = kfhlja[wx_index];
+	 		 
+	 function showline() {
+	   window.open(kfhljas);
+	   fbq('track', 'AddToCart'); 
+	   _lt('send', 'cv', {type: 'Conversion'},['']);
+	  }
+	 function showlinebtj() {  window.open(kfhljas); }
+</script> 
+  
+    
+<!--像素代码-->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '208221424521093');
+fbq('track', 'PageView');
+</script>
+<noscript>< img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=208221424521093&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+<a href="javascript:" onclick="showline()">
+            <span style="font-weight:1.618rem;font-weight: bold;color:red"><script>document.write(stxlwx);</script></span></a>
+
+
+
+
+购买
+fbq('track', 'Purchase', {value: 0.00, currency: 'USD'});
+发起结账
+fbq('track', 'InitiateCheckout');
+
+
+
+
+
+

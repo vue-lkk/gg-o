@@ -1,0 +1,42 @@
+网站操作					说明					标准事件代码
+
+添加支付信息   在结账流程中添加客户支付信息。例如，用户点击保存账单信息按钮。	fbq('track', 'AddPaymentInfo');
+
+加入购物车     将商品加入购物车或购物篮。例如：在网站中点击“加入购物车”按钮。	fbq('track', 'AddToCart');
+	     onclick="fbq(&#39;track&#39;, &#39;AddToCart&#39;);"
+		
+加入心愿单     将商品加入心愿单。例如，在网站中点击“加入心愿单”按钮。	fbq('track', 'AddToWishlist');
+
+
+完成注册	客户提交信息以换取您公司提供的服务。例如，注册邮箱订阅。	fbq('track', 'CompleteRegistration');
+
+联系方式	电话、短信、邮件、聊天或客户与商家之间的其他联系方式。	fbq('track', 'Contact');
+
+定制商品	通过配置工具或商家所拥有的其他应用程序定制商品。	fbq('track', 'CustomizeProduct');
+
+捐款	面向您的组织或公益事业的捐款。	fbq('track', 'Donate');
+
+查找网点	用户通过网络找到了您的一家网点并有意前往。例如，搜索商品并发现您的一家当地店铺提供该商品。	fbq('track', 'FindLocation');
+
+发起结账	用户进入结账流程。例如，点击“结账”按钮。	fbq('track', 'InitiateCheckout');
+
+潜在客户	客户提交信息并知悉几日后您公司将与其取得联系。例如，提交表单或注册参加试用。	fbq('track', 'Lead');
+	onclick="fbq(&#39;track&#39;, &#39;Lead&#39;);"
+
+购物	完成购物，标志行为通常是收到订单/购买确认信息或交易收据。例如，进入“谢谢”或确认页面。	fbq('track', 'Purchase', {value: 0.00, currency: 'USD'});
+	onclick="fbq(&#39;track&#39;, &#39;Purchase&#39;, {value: 0.00, currency: &#39;USD&#39;});"
+
+排期	预约前往您的某个网点	fbq('track', 'Schedule');
+
+搜索	您的网站、应用或其他资产中发生的搜索操作。例如，商品搜索或旅游服务搜索。	fbq('track', 'Search');
+
+开始试用	开始免费试用您提供的商品或服务的行为。例如，试用订阅。	fbq('track', 'StartTrial', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
+
+提交申请	针对您提供的某个产品、服务或计划提交申请。例如，信用卡、教育计划或职位。	fbq('track', 'SubmitApplication');
+
+订阅	开始付费订阅您提供的商品或服务。	fbq('track', 'Subscribe', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
+
+查看内容	访问您感兴趣的网页。例如，商品页或落地页。查看内容事件可以使您知晓用户访问了网页，但无法知晓用户在网页上进行的操作和看到的内容。	fbq('track', 'ViewContent');
+
+<a   class="button"    title="微信号"   onclick="fbq(&#39;track&#39;, &#39;AddToCart&#39;);"    href="javascript:{showline()}"   >
+

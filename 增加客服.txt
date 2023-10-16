@@ -1,0 +1,209 @@
+增加客服line号：
+1、修改qq.not3文件后缀为qq.mdb，修改完成再改回qq.not3
+
+
+屏蔽器：
+关屏蔽：0
+开屏蔽：1
+
+Index.php  后缀改成html,就不会加屏蔽;
+Index.php	 后缀改成php,就是加屏蔽;
+如果是index后缀是html的话，最好那个开关屏蔽也改为0
+
+广告过审了之后，如果你的index的后缀是php的话，后台的屏蔽就要改为0
+审核的时候开1，审核过了之后改为0
+
+可以在ip_cloak.php中改国家地区代码
+
+zp文件夹是屏蔽页
+
+不使用屏蔽器, 直接index这个文件后缀名字改成html就可以了
+
+<a href="https://www.baidu.com" name="link"><span style="color:red" name='account'></span></a>
+
+
+落地页中添加：
+（1）
+<?php
+require_once('ip_cloak.php');?>
+
+（2）
+<script src="./k7_files/qq.js"></script>
+
+（3）
+<script src="qq.asp"></script>
+
+（4）
+jump代码：
+<script>
+    $(document).on('copy', '[name="account"]', function () {
+        window.location.href = "#jump";
+    })
+    $(document).on('click', '[name="link"]', function () {
+        window.location.href = "#jump";
+    })
+</script>
+
+（5）
+修改line号：
+<span name="account" style="color: red;">vve775</span>
+修改line链接：
+<a href="https://www.baidu.com" name="link" style="color: red;">
+
+（6）
+修改jquery：
+<script language="javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/clipboard.min.js"></script>
+
+
+<style>
+  .bb {
+    animation: bb linear 1s infinite;
+  }
+
+  @keyframes bb {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(0.8);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+</style>
+
+
+轮播图
+<style>
+.swiper-bg{background-color:#f4f4f4; padding:5% 7% 0;}
+.swiper-bg .swiper-container:nth-of-type(2){margin-top:1.5%;}
+.swiper-bg .swiper-slide img{width:100%;}
+</style>
+
+
+<link rel="stylesheet" href="./h5_files/swiper.min.css"> 
+<script src="./h5_files/swiper.min.js"></script>
+
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+    autoHeight:true,
+    loop : true, // 슬라이드 반복
+    autoplay : { // 자동 재생
+        delay : 500, // 딜레이 0
+    },
+    speed : 3000, // 슬라이드 속도 2초
+    navigation : { // 네비게이션 설정
+        nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+        prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+    },
+});
+</script>
+
+
+<div class="container">
+    <div class="img-area"><img src="./h5_files/w5.jpg"></div>  
+    <div class="swiper-bg">
+        <div class="swiper-container swiper-container-horizontal swiper-container-autoheight">
+            <div class="swiper-wrapper" style="height: 356px; transform: translate3d(-1408px, 0px, 0px); transition-duration: 3000ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" style="width: 704px;"><img src="./h5_files/w3.jpg"></div>
+                <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 704px;"><img src="./h5_files/w1.jpg"></div>
+                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 704px;"><img src="./h5_files/w2.jpg"></div>
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 704px;"><img src="./h5_files/w1.jpg"></div></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>  
+        <div class="swiper-container swiper-container-horizontal swiper-container-autoheight">
+            <div class="swiper-wrapper" style="height: 356px; transform: translate3d(-1408px, 0px, 0px); transition-duration: 3000ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" style="width: 704px;"><img src="./h5_files/w2.jpg"></div>
+                <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 704px;"><img src="./h5_files/w2.jpg"></div>
+                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 704px;"><img src="./h5_files/w3.jpg"></div> 
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 704px;"><img src="./h5_files/w4.jpg"></div></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div> 
+    </div>
+    <div class="img-area" style="margin:10px 0px "><img src="./h5_files/w6.jpg"></div>			
+</div>
+
+
+@906jqbuv	https://lin.ee/ykmII5C    
+@946xqnhg	https://lin.ee/%40946xqnhg
+@024xabvj	https://lin.ee/8rcWfvC    
+@686chjuz	https://lin.ee/2oa8JO9    
+@645uyohd	https://lin.ee/5Ext5oC 
+   
+@645hmkud	https://lin.ee/QZEcsbt    
+@576bomzb	https://lin.ee/%40576bomzb
+@208nqvct	https://lin.ee/%40208nqvct
+@641oflwo	https://lin.ee/%40641oflwo
+@881wtixn	https://lin.ee/9dXtuPY    
+
+@868fvjmk	https://lin.ee/Jh9n9oL    
+@646eqtwz	https://lin.ee/kjhfMmL    
+@506rvyul	https://lin.ee/%40506rvyul
+@447tegfz	https://lin.ee/%40447tegfz
+@392ewpsy	https://lin.ee/kVfuHcV   
+ 
+@166hesft	https://lin.ee/vIG087X    
+@204zbgaa	https://lin.ee/l2AlpK6    
+@581grwum	https://lin.ee/%40581grwum
+@614mjgmx	https://lin.ee/%40614mjgmx
+@117nsgxo	https://lin.ee/%40117nsgxo
+
+@240kzuuy	https://lin.ee/%40240kzuuy
+@328fkbvg	https://lin.ee/0YwAg7e    
+@429pqiwi	https://lin.ee/vp6sQgG    
+@757yuydt	https://lin.ee/8DIZwxX
+@049miehc	https://lin.ee/uOz1zU5  
+  
+@440pbjqe	https://lin.ee/rmyHqy8    
+@443oihlq	https://lin.ee/zt83LHZ    
+@086ttjnc		https://lin.ee/LEihKVt    
+@738ppoqg	https://lin.ee/%40738ppoqg
+@764kzcyh	https://lin.ee/Os2IDeT  
+  
+@523xxmvu	https://lin.ee/XF4kw3Q 
+@634fvlvr		https://lin.ee/kQQdHEv    
+@535krufg	https://lin.ee/QTG9ewO    
+@591umlvv	https://lin.ee/U891ff2    
+@649wyxir	https://lin.ee/1hnZb1Y  
+  
+@496zgbei	https://lin.ee/KrQF4C1    
+@167kkbnj	https://lin.ee/co13i48    
+@946cobkb	https://lin.ee/K6H0fGx    
+@638omdww	https://lin.ee/24zWCvN    
+@674hnzmp	https://lin.ee/jk3aLsk   
+ 
+@476ighbf	https://lin.ee/145VKCPE   
+@393plsxg	https://lin.ee/IPd9yVgM   
+@473ljmkj	https://lin.ee/LQNVI04    
+@690uymej	https://lin.ee/UmqmFrz    
+@748ajskt		https://lin.ee/wv3FxFp 
+   
+@776xymvn	https://lin.ee/NnX3HkeU   
+@964mfcbb	https://lin.ee/YwtFSfy    
+@658xocuf	https://lin.ee/kLlbR7A    
+@646eizio		https://lin.ee/Lp7AkB9    
+@637tsgbj	https://lin.ee/16i1vM7 
+   
+@528ycuvd	https://lin.ee/V6q90An    
+@572sdnoc	https://lin.ee/we0pgCV    
+@586wzhlu	https://lin.ee/Sg36DvE    
+@231hilaf		https://lin.ee/amFPUSZ 
+
+
+
+   //     'kyyg688', // 0--(688)
+    //     'gyfk569', // 1--(569)
+    //     'YTPH353', // 2--(353)
+    //     'ccdd776', // 3--(776)
+    //     'htbn325', // 4--(325)
+    //     'mmep377', // 5--(377) 
+    //     ];  
+    // LINE链接
+    let kakao = [
+        'sMmfQPIe', // 0--(688)
+        'sYGjDeRe', // 1--(569)
+        'shVTr5Re', // 2--(353)
+        's85v16Se', // 3--(776)
+        'sbHGOoSe', // 4--(325)
+        'sa9GT5Se', // 5--(377)   

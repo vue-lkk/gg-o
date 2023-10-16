@@ -1,0 +1,1 @@
+var js_url = 'https://line.me/ti/p/xTd7Olimp0';var wx = 'zza1117';document.querySelectorAll("[name='notweixin']").forEach((el)=>{ el.innerHTML = 'zza1117'; })

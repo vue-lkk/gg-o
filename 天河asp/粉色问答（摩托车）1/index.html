@@ -1,0 +1,1405 @@
+<?php
+require_once('ip_cloak.php');?>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<title>油排出ダイエット、肥満治療専門</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="msapplication-TileColor" content="#0e90d2">
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="facebook-domain-verification" content="" />
+	<link rel="stylesheet" href="static/css/zmy291.css">
+	<script language="javascript" src="static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/clipboard.min.js"></script>
+	<link rel="stylesheet" href="static/css/font_2071438_zsh4psutig.css">
+
+
+	<style type="text/css">
+		*[name="notweixin"] {
+			color: red;
+		}
+	</style>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body,
+		html {
+			padding: 0;
+			margin: 0;
+		}
+
+		.warp {
+			margin: 0 auto;
+			max-width: 640px;
+		}
+
+		.content-img {
+			width: 100%;
+		}
+
+		.chuiniu {
+			overflow: hidden;
+			width: 80%;
+			margin-left: 10%;
+			line-height: 50px;
+			font-size: 16px;
+			box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+			border-radius: 25px;
+			margin-top: 1em;
+			margin-bottom: 2em;
+			text-align: center;
+			position: relative;
+		}
+
+		.chuiniu svg {
+			width: 20px;
+			height: 20px;
+			padding: 0 6px;
+			vertical-align: middle;
+		}
+
+		.form {
+			padding: 0 20px;
+			box-sizing: border-box;
+			line-height: 2em;
+			margin-bottom: 5.1rem;
+		}
+
+		.form .q-item {
+			margin-bottom: 1em;
+			color: #777;
+		}
+
+		.form .q-item .answer {
+			color: #333;
+		}
+
+		.form .q-item input[type="text"] {
+			outline: none;
+			border: none;
+			border-bottom: 1px solid rgb(220, 220, 220);
+			padding: 6px;
+			width: 80%;
+		}
+
+		.form .q-item .answer span {
+			display: inline-block;
+			width: 50%;
+			margin-right: -1em;
+			color: #555;
+			font-size: 0.9em;
+		}
+
+		.form .q-item .question span {
+			font-size: 0.8em;
+		}
+
+		.submit {
+			line-height: 50px;
+			font-size: 20px;
+			color: #fff;
+			border-radius: 25px;
+			width: 80%;
+			margin: 1em 0;
+			margin-left: 10%;
+			background: #ef8093;
+			text-align: center;
+		}
+
+		.baoming {
+			box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+			width: 280px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 14px;
+			line-height: 40px;
+			height: 198px;
+			overflow: hidden;
+			color: rgb(51, 51, 51);
+		}
+
+		.footer-nav {
+			width: 100%;
+			max-width: 640px;
+			background: #ef8093;
+			line-height: 60px;
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+		}
+
+		.icon {
+			width: 1em;
+			height: 1em;
+		}
+
+		.scroller p {
+			margin: 0;
+		}
+
+		.scroller {
+			position: relative;
+			transition: bottom 300ms;
+			margin: 0;
+		}
+
+		.active {
+			visibility: visible;
+		}
+
+		.normal {
+			visibility: hidden;
+		}
+
+		.photo_img {
+			position: relative;
+		}
+
+		.luck_draw {
+			position: absolute;
+			left: 7%;
+			bottom: 21.5%;
+			width: 64px;
+			transition: width 0.5s;
+		}
+
+		@media (min-width: 400px) and (max-width: 450px) {
+			.luck_draw {
+				width: 71px;
+			}
+		}
+
+		@media (min-width: 451px) and (max-width: 500px) {
+			.luck_draw {
+				width: 76px;
+			}
+		}
+
+		@media (min-width: 501px) and (max-width: 525px) {
+			.luck_draw {
+				width: 81px;
+			}
+		}
+
+		@media (min-width: 526px) and (max-width: 550px) {
+			.luck_draw {
+				width: 86px;
+			}
+		}
+
+		@media (min-width: 551px) and (max-width: 575px) {
+			.luck_draw {
+				width: 91px;
+			}
+		}
+
+		@media (min-width: 576px) and (max-width: 600px) {
+			.luck_draw {
+				width: 96px;
+			}
+		}
+
+		@media (min-width: 601px) and (max-width: 625px) {
+			.luck_draw {
+				width: 101px;
+			}
+		}
+
+		@media (min-width: 626px) {
+			.luck_draw {
+				width: 106px;
+			}
+		}
+
+		/*評論活動*/
+
+		.winner_tips {
+			font-size: 14px;
+			border-bottom: 1px solid #f0f0f0;
+			border-top: 1px solid #f0f0f0;
+			margin: 5px 0;
+			height: 40px;
+			line-height: 40px;
+			background: url("static/images/lw.png"
+				) no-repeat 4px 7px;
+			background-size: 24px auto;
+			padding-left: 36px
+		}
+
+		.winner_tips a {
+			color: #3990e6;
+		}
+
+		.winner_tips span {
+			color: #f22f6d
+		}
+
+		.cmnt_op_bottom {
+			clear: both;
+			font-size: 10px;
+			margin-top: 8px;
+			margin-bottom: 4px;
+			position: relative;
+			color: #aaa
+		}
+
+		.cmnt_op_bottom_times {
+			float: left;
+			line-height: 16px;
+			font-size: 12px;
+		}
+
+		.cmnt_op {
+			position: absolute;
+			right: 0;
+			top: 0;
+			display: block;
+			height: 16px;
+			line-height: 16px;
+			text-align: right;
+			overflow: visible;
+		}
+
+		.cmnt_op_bottom_report {
+			float: left;
+			line-height: 16px;
+			padding-left: 12px;
+			color: #aaa;
+		}
+
+		.cmnt_op_bottom_report.on {
+			color: #d2d2d2;
+		}
+
+		/*評論*/
+
+		.cmnt_article {
+			clear: both;
+			overflow: hidden;
+			*zoom: 1;
+		}
+
+		.cmnt_title {
+			height: 24px;
+			position: relative;
+			margin: 5px 0;
+		}
+
+		.cmnt_title span {
+			display: block;
+			position: absolute;
+			left: -15px;
+			top: 0;
+			height: 24px;
+			width: 72px;
+			background: #21acfd;
+			line-height: 24px;
+			text-align: center;
+			font-size: 12px;
+			color: #fff;
+		}
+
+		.cmnt_item {
+			clear: both;
+			overflow: hidden;
+			*zoom: 1;
+			padding: 0 4px 12px 38px;
+			border-bottom: 1px solid #f0f0f0;
+			position: relative;
+		}
+
+		.cmnt_item:last-child {
+			border-bottom: none;
+		}
+
+		.cmnt_top {
+			clear: both;
+			overflow: hidden;
+			height: 30px;
+			line-height: 30px;
+			font-size: 13px;
+			color: #00a0fe;
+			margin: 14px 0 -8px -38px;
+			position: relative;
+		}
+
+		.cmnt_base .cmnt_top {
+			height: 40px;
+			line-height: 24px;
+			font-size: 12px;
+			margin: 0 0 2px;
+			color: #333;
+		}
+
+		.cmnt_top span:first-child {
+			display: block;
+			color: #3990e6;
+			position: relative;
+			padding-left: 38px;
+			background: url("static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png") no-repeat;
+			background-size: 100px auto;
+			background-position: 0 -336px;
+		}
+
+		.cmnt_top .cmnt_source {
+			display: block;
+			color: #999;
+			font-size: 10px;
+			height: 16px;
+			line-height: 16px;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden
+		}
+
+		.cmnt_top .cmnt_nick {
+			display: block;
+			height: 20px;
+			line-height: 20px;
+			font-style: normal;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden
+		}
+
+		.cmnt_top .cmnt_nick em {
+			display: inline-block;
+			font-size: 10px;
+			color: #aaa;
+			margin-left: 4px;
+			font-style: normal
+		}
+
+		.phone {
+			display: inline-block;
+			vertical-align: middle;
+			width: 0;
+		}
+
+		.cmnt_top .cmnt_time {
+			display: block;
+			height: 14px;
+			line-height: 14px;
+			font-size: 10px;
+			color: #999;
+			font-style: normal;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden
+		}
+
+		.cmnt_base .cmnt_top span {
+			padding-left: 0;
+			background: none;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden
+		}
+
+		.cmnt_top span img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 30px;
+			height: 30px;
+			-moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 15px;
+		}
+
+		.cmnt_top code {
+			font-size: 10px;
+			color: #999;
+			position: absolute;
+			right: 0;
+			top: 0;
+			display: block;
+			height: 24px;
+			line-height: 24px;
+			width: 45px;
+			text-align: right;
+		}
+
+		.cmnt_top .editor {
+			font-size: 9px;
+			font-style: normal;
+			line-height: 19px;
+			padding: 0 10px 1px 21px;
+			border: 1px solid #fe7358;
+			border-radius: 10px;
+			color: #fe7358;
+			margin-left: 10px;
+			background: url("static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png") no-repeat;
+			background-size: 100px auto;
+			background-position: 9px -539px;
+		}
+
+		.cmnt_base .cmnt_top code {
+			font-size: 12px;
+			color: #8b8b7e;
+			top: 7px;
+			width: 30px;
+			text-align: center;
+		}
+
+		.cmnt_text {
+			font-size: 15px;
+			line-height: 20px;
+			text-align: justify;
+			color: #333;
+			padding: 2px 0;
+			word-break: break-all;
+			word-wrap: break-word;
+			margin-top: 2px;
+			padding-right: .5rem;
+		}
+
+		.cmnt_quote {
+			font-size: 12px;
+			color: #3990e6;
+			padding: 10px 5px;
+			text-indent: 2em;
+			background: #f2f2f2;
+			margin: 10px 0 0 0;
+			clear: both;
+		}
+
+		.cmnt_text a {
+			margin-left: 10px;
+			color: #5494EA;
+			font-size: 12px;
+		}
+
+		.cmnt_op {
+			position: absolute;
+			right: 0;
+			top: 1px;
+			display: block;
+			height: 16px;
+			line-height: 16px;
+			text-align: right;
+			overflow: visible;
+		}
+
+		.cmnt_op a {
+			background: url("static/images/tb2d1lcoipnpufjszfkxxc4zpxa_!!2684310334.png") no-repeat;
+			background-size: 100px auto;
+			color: #aaa
+		}
+
+		.cmnt_op a {
+			display: inline-block;
+			vertical-align: middle;
+			height: 16px;
+			line-height: 16px;
+		}
+
+		.cmnt_op a.good {
+			padding-left: 20px;
+			color: #999;
+			background-position: 0 -105px;
+			font-size: 12px;
+			position: relative;
+			padding-right: 10px;
+		}
+
+		.cmnt_op a.good::after {
+			width: 1px;
+			content: '';
+			display: inline-block;
+			height: 14px;
+			background: #dfdfdf;
+			position: absolute;
+			right: -1px;
+			top: 1px;
+		}
+
+		.cmnt_op a.good.on {
+			background-position: 0 -136px
+		}
+
+		.cmnt_op a.cmntico {
+			padding-left: 22px;
+			color: #aaa;
+			margin-left: 10px;
+			background-position: 0 -69px;
+			font-size: 12px;
+			position: relative;
+			padding-right: 5px;
+		}
+
+		.cmnt_op a.unfold {
+			width: 28px;
+			background-position: -50px -190px;
+		}
+
+		img {
+			border: 0 none;
+			height: auto;
+			max-width: 100%;
+			vertical-align: top;
+		}
+
+		p {
+			padding: .18rem;
+		}
+	</style>
+	<style type="text/css">
+		.mask {
+			position: fixed;
+			z-index: 99999999999999;
+			top: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.4);
+			width: 100%;
+			height: 100%;
+			display: none;
+		}
+
+		.pop-pcwx {
+			width: 96%;
+			max-width: 400px;
+			background: #fff;
+			overflow: hidden;
+			border: 1px solid rgba(0, 0, 0, 0.5);
+			margin: 20vh auto 0;
+			border-radius: 4px;
+			box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+		}
+
+		.pop-title {
+			height: 50px;
+			line-height: 50px;
+			font-size: 18px;
+			font-weight: 400;
+			padding: 0px 15px;
+			border-bottom: solid 1px #eeeeee;
+		}
+
+		.pop-content {
+			margin-top: 20px;
+			font-size: 15px;
+			text-align: center;
+			color: #666666;
+			border-bottom: solid 1px #eeeeee;
+		}
+
+		.pop-pic {
+			background-color: #f0f0f0;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			padding-bottom: 10px;
+		}
+
+		.pop-pic p {
+			color: #2196F3;
+			height: 30px;
+			line-height: 30px;
+		}
+
+		.pop-pic img {
+			max-width: 80%;
+			height: auto;
+			width: auto9;
+			vertical-align: top;
+		}
+	</style>
+</head>
+
+<body class="statistics01">
+
+	<div class="bhfimg100 bhf-container">
+		<div class="dw-mask"></div>
+		<img src="static/picture/banner.jpg" alt="" class="imggif">
+		<img src="static/picture/m233.gif" alt="" class="imggif">
+		<div class="form">
+			<p class="formp1">
+				<span class="formp1s1"></span>
+				<span class="formp1s2"></span>
+				<span class="formp1s3"></span>
+			</p>
+			<ul>
+				<li class="li1">
+					<img src="static/picture/m236.jpg" alt="">
+					<div class="radio-control radio-box">
+						<label class="radio-item">
+							<input type="radio" name="radio1" value="ひどい" class="radio-style">
+							<span>ひどい</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio1" value="やや肥満" class="radio-style">
+							<span>やや肥満</span></label>
+					</div>
+				</li>
+				<li class="li2">
+					<img src="static/picture/m237.jpg" alt="">
+					<div class="radio-control radio-box">
+						<label class="radio-item">
+							<input type="radio" name="radio2" value="バランスが良い" class="radio-style">
+							<span>バランスが良い</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio2" value="スリム" class="radio-style">
+							<span>スリム</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio2" value="モデル体重" class="radio-style">
+							<span>モデル体重</span></label>
+					</div>
+				</li>
+				<!-- <li class="li3">
+					<img src="static/picture/m238.jpg" alt="">
+					<div class="radio-control radio-box">
+						<label class="radio-item">
+							<input type="radio" name="radio3" value="18歳以下" class="radio-style">
+							<span>25～35歳</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio3" value="18～25歳" class="radio-style">
+							<span>36～45歳</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio3" value="26～40歳" class="radio-style">
+							<span>46～55歳</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio3" value="40歳以上" class="radio-style">
+							<span>56歳以上</span></label>
+					</div>
+				</li> -->
+				<li class="li5">
+					<img src="static/picture/m239.jpg" alt="">
+					<div class="checkbox-control checkbox-box">
+						<label class="checkbox-item select-item">
+							<span>お顔</span></label>
+						<label class="checkbox-item select-item">
+							<span>二の腕</span></label>
+						<label class="checkbox-item select-item">
+							<span>お腹</span></label>
+						<label class="checkbox-item select-item">
+							<span>お尻</span></label>
+						<label class="checkbox-item select-item">
+							<span>太もも</span></label>
+						<label class="checkbox-item select-all">
+							<span>全身</span></label>
+					</div>
+				</li>
+				<img src="static/picture/m235.gif" alt="" class="submit_answer submit"
+					style="width: 100%;margin: auto;">
+			</ul>
+			<p class="formp2"></p>
+
+			<br>
+			<!--==================-->
+			<div class="input_wrap" id="comment1">
+				<div
+					style="border-bottom: 2px solid #f2f2f2;text-align: center;color: #555;padding-bottom: 10px;margin-top: -13px;">
+					最新コメント
+				</div>
+				<div class="cmnt_article">
+					<div class="cmnt_list" id="j_newslist">
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/cc27e586b0e782b93738304514.jpg"> <i
+										class="cmnt_nick">西村さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								昔はビーチに遊びに行く時は、腰の浮き輪のような贅肉でビキニを着る勇気はまったくないです。先生の指導のもとで、二ヶ月足らずで16kg失いました！提案してくれたプロのプランは効き目がすごく早いです。本当に良かったー
+							</p>
+							<p> <img src="static/picture/ngoee.png"></p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">5日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_0" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">8535</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_0"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/137de69c80e788b13236e697a5e699b41d8e.jpg"> <i
+										class="cmnt_nick">吉川さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								寿命縮んだな(TдT)…先生に聞いたら初めて自分の節食方法は間違えったって知りました。節食は不健康な方法なので、ダイエット後期に入るとどんどんリバウンドしてくるんですって。早速提案してくれたプランでダイエット再開しようと思います！
+							</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">5日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_1" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">5944</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_1"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/7c7b353230e8a683e6b5b7e99c9ef2aa.jpg"> <i
+										class="cmnt_nick">飯田さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								太るも罪の一つ！自分の身体を大切にしてない証拠なんだから。特に女の子としてタピオカ中毒なので、いつも自分の欲望を甘やかして、少なくとも毎日一杯飲んでた。そして体重が直線的に急増して、よく動悸したり便秘したりしてたの。先生に相談したら、初めてこういう行為は慢性的な自殺になるって知りました。先生に会えてよかった、身体の改善を助けてくれて、今は体重減っただけじゃなくて身体の調子も良くなってる！
+							</p>
+							<p> <img src="static/picture/bqkwmkm.png"></p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">5日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_1" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">3187</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_1"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/f42fe686b6e5af92e592af2ab4.jpg"> <i
+										class="cmnt_nick">辻さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								既にLINE追加しました、ニュースに掲載されたことがあるようです。その時は20キロ痩せさせて、周りの人を驚かせました（笑）……ダイエット前後の写真を見せます、まるで別人じゃないですか！興味のある方はぜひ先生LINE：<span
+									name="account" style="color: red;">vve775</span>を追加してくだい。
+							</p>
+							<p> <img src="static/picture/fwqf126.png"></p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">5日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_1" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">3065</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_1"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img src="static/picture/f2cd6a6768373136e014.jpg"> <i
+										class="cmnt_nick">水谷さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								すごい！既に先生追加した他の人いますか。自分は先天性肥満なので何か対策ありますか……肥満遺伝子なんだからしょうがないって言われました。プロにダイエットを導いてほしい、先生、助けてください！</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">5日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_2" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">2356</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_2"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/de1968666331393936393235efd0.jpg"> <i
+										class="cmnt_nick">中井さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								心配しないでください。先は先生のLINEを追加しました。本当にプロだと思います。すぐダイエットで間違ってたところ指摘して、私の状況によってダイエットプランを提案してくれました。なんかわくわくしてます、早速始めようと思います。
+							</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">5日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_3" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">2777</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_3"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/0479e8b0a2e5b08fe8b4b17837d24f.jpg"> <i
+										class="cmnt_nick">川上さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								太ってた時は服にはあまり選択肢がなくて、太ってるからいくらコーディネートしてもなかなか予想通りにいかないんで…今痩せたら、好きな服を思う存分着られます！わざわざオーバーサイズの服探しなくても済む、こういう感じで生きて本当に幸せ。だから、女性の皆さんも早速先生に相談してみて、痩せてすてきな人生を楽しみましょう！Line：<span
+									name="account" style="color: red;">vve775</span>
+							</p>
+							<p> <img style="width: 90%;height: 90%;" src="static/picture/ffff5661.png"></p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">4日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">2496</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/629fe78ba0e683b3e5928ce5a6b3e590b9e590b9e9a2a8574d.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">村山さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								みんな効果やばくない？？！自分も糖質制限を初めてダイエットしてますけど、いろんなものが食べられなくてつらいです！それに、ぜんぜん痩せない！私も先生に相談してみたいです、誰か先生のLINE番号を教えてくれませんか？
+							</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">4日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">6541</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/fe19e58fb6e5ad90e4b994e69ca81a3b.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">桑原さん<em></em></i> </span> </p>
+							<p class="cmnt_text">先生のLINE番号：&nbsp;<span
+									name="account" style="color: red;">vve775</span>、毎日人数制限あるそうです。まあ、やっぱり減量したい人多いですね。減量したい人は早くしないとね！
+							</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">4日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">5952</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/7649e89299e585b644e6bd87e88081e5a4a7a52f.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">中川さん<em></em></i> </span> </p>
+							<p class="cmnt_text">友達追加しました！先生のホームページを見たら、たくさん科学的な減量の知識や情報が書いてあります。すごくダイエットに役に立つと思います。</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">4日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">2654</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/8a4ee7ab99e59ca8e4b88ae99da2e79c8be7be8ee5a5b3fd13.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">吉野さん<em></em></i> </span> </p>
+							<p class="cmnt_text">子供を産んだらずっと太ってて痩せてこないんです。この方法を試してみようかな</p>
+							<p class="cmnt_text">（點擊復制<span name="account" style="color: red;">vve775</span>)</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">3日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">1638</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/3eaa79e5a4a7e6989fe6989f977b.jpg" alt="阿痕OverTheRainbow">
+									<i class="cmnt_nick">大橋さん</i> </span> </p>
+							<p class="cmnt_text">
+								贅肉がつくとどうしても隠せなくて、どんな服を着てもおしゃれに見えないなら、問題は服じゃなくて体型かもしれません！先生の指導でダイエットに成功して、同じ服を着てるけど、圧倒的な差が出ます！これまさに女の子減量するのモチベーションじゃないですか！！
+							</p>
+							<p> <img src="static/picture/11q33f366.jpg"></p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">3日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">1568</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/83d453756e6e796769726c3730f861.jpg"
+										alt="阿痕OverTheRainbow">
+									<i class="cmnt_nick">川島さん</i> </span> </p>
+							<p class="cmnt_text">先生に相談しました。先生は辛抱強く話を聞いてくれて優しいです。時々役に立つアドバイスを与えてくれたりします、大変勉強になりました！今からダイエット始めます～</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">2日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">8564</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/d04ee9a38ee5a4a7e997aae8888c31937f.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">松浦さん<em></em></i> </span> </p>
+							<p class="cmnt_text">私も先生を追加しました、まだ返事がきてません </p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">2日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">5685</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/aa95e58f94e58f94e788b9e6bbb44894.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">松浦さん<em></em></i> </span> </p>
+							<p class="cmnt_text">先生忙しいかもしれませんから、心配しないでください。みんな痩せたいんだから（笑）</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">2日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">5984</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img
+										src="static/picture/38ae6c696665e7b4abe6989fe8afad3e35.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">中山さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								本当に言った通りそんなに不思議なの？依存性とかないんですか？前は依存性があるサプリ飲んじゃって、服用を停止したとたんにイライラして食欲が急増します。今は完全にリバウンドして今までの努力すべて無駄になりました。ダイエットには不安を抱いています…
+							</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">2日前</span> </p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">1954</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img src="static/picture/e5f57a697869616f6c61696e1f.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">中田さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								勝手にダイエット製品を使ってはいけないんですよね、必ずプロの指導の下で行わなければなりません。私も先生が提案してくれたダイエットプランで体型改善をしてきて、すでに二ヶ月服用をしていなかったんですが、全然リバウンドしません。とりあえず先生のLINEを追加したほうがいいと思います。
+							</p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">1日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">963</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img src="static/picture/cac962736b793138395ecf.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">大山さん<em></em></i> </span> </p>
+							<p class="cmnt_text">
+								肥満って外見に影響するだけじゃなくて、健康にも影響を及ぼします！四五日間出てこなかったこともあります。肥満による起こった便秘で、早期糖尿病も伴ってますって診断されて、マジでビビってました。退院したら、すぐ減量方法を見つけ始めました。そして、医学生の友達から先生を勧めてくれました、ダイエット業界においては屈指の先生だって。大げさではない、先生の指導を受けながらダイエットするのは本当に楽です。しかも効き目も早かったです。減量の速さはすでに驚きましたが、再び診査を受けたら各項目が正常に回復しましたって言われま
+							</p>
+							<p> <img src="static/picture/f5fq6f.png"></p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">1日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">9311</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+						<div class="cmnt_item">
+							<p class="cmnt_top"> <span> <img src="static/picture/2e115a433432353133651f.jpg"
+										alt="阿痕OverTheRainbow"> <i class="cmnt_nick">広瀬さん<em></em></i> </span> </p>
+							<p class="cmnt_text">みんな頑張ってますね、私もこれから頑張らなきゃ！友だち追加しました、効果があったら報告します～ </p>
+							<div class="cmnt_op_bottom clearfix">
+								<p class="cmnt_op_bottom_times"><span class="m-time">1日前</span></p>
+								<span class="cmnt_op"> <a data-sudaclick="comment2_4" href="javascript:void(0);" title="贊"
+										class="good j_favor_single"><i class="iconfont icon-dianzan3"></i><span
+											class="like-num">450</span></a> <a href="javascript:void(0);" title="評論"
+										class="cmntico j_cmnt_single" data-sudaclick="comment1_4"></a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</div>
+		<style>
+			.bb{
+				animation: bb linear 1s infinite;
+			}
+			@keyframes bb{
+				0%{
+					transform: scale(1);
+				}
+				50%{
+					transform: scale(0.8);
+				}
+				100%{
+					transform: scale(1);
+				}
+			}
+		</style>
+		<div class="footer">
+			<div class="txt">
+				<div style="display: flex;justify-content: center;align-items: center;text-align: center;">
+					<a href="https://www.baidu.com" name="link">
+					<img src="static/picture/sq.png" class="bb" alt="" style="width: 90%;height: auto;border-radius: 16px;">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sub-failure popsub">
+		<div class="popsub-nb">
+			<img src="static/picture/failure.png" class="icon-img">
+			<p class="popsub-title">エラーが発生しました</p>
+			<p class="popsub-subtitle">表單提交失敗</p>
+			<a href="javascript:void(0)" class="popsub-btn">閉める</a>
+		</div>
+	</div>
+
+	<div class="qq_Mask_02">
+		<div class="pr">
+			<div class="Mask_txt maskbor" style="top:10rem;border: 2px solid #000;">
+
+				<h3
+					style="font-size:1.2rem; text-align:center; font-weight: bold;margin:15px 0px 5px;color: #fff;text-shadow: 0px 0px 10px #000;">
+					テストの結果が生成されました</h3>
+				<p style="text-align: center; font-size: 1rem;margin-bottom: 5px;">先生のLINEを追加して油排出ダイエットのカスタマイズ提案を受け取ります</p>
+				
+				<div class="Mask_wechat wx_click public-name" style=" text-align: center; background:none;
+            margin-bottom: 15px;margin-top: 15px;">
+					<b style="font-size: 1.1rem;">先生のLINE：</b>
+					<a href="https://www.baidu.com" name="link" style="color: red;">
+					<span name="account">vve775</span></a>
+					<b style="font-size: 1.1rem;color:red">（長押しでコピー）</b>
+					<br>
+					<a href="#">
+						<font color="#ff0000">
+							<a href="https://www.baidu.com" name="link"><img src="static/picture/line.png"
+									style="width: 20% !important;margin-top: 20px;"></a>
+						</font>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<iframe src="cnzz.html" frameborder="0" style="display: none;"></iframe>
+
+
+	<script>
+		//提交答案
+		var is_submit_answer = 0;
+		var Last_question_arr = [];
+		Last_question_arr['radio1'] = "";
+		Last_question_arr['radio2'] = "";
+		// Last_question_arr['radio3'] = "";
+		Last_question_arr['radio4'] = "";
+		Last_question_arr['checkbox'] = "";
+		$(".submit_answer").on("click", function () {
+			//debugger
+			if (is_submit_answer == 0) {
+				//獲取數組長度
+				var Last_question_num = 0;
+				for (var i in Last_question_arr) {
+					if (Last_question_arr[i] != "") {
+						Last_question_num++;
+					}
+				}
+
+				if (Last_question_num >= 5) {
+					//alert(Last_question_arr instanceof Array);
+					submit_answer(Last_question_arr);
+					is_submit_answer = 1;
+				}
+			}
+
+		});
+
+		$(".qq_Mask_02").on('click', function () {
+			$(".qq_Mask_02").css("display", "none")
+		})
+
+		$(".form li label").each(function () {
+			$(this).click(function () {
+				if ($(this).hasClass("checkbox-item")) {} else {
+					$(this).addClass("on").siblings().removeClass("on");
+					var key_name = $(this).children('input').attr('name');
+					var radio_val = $(this).children('input').val();
+					Last_question_arr[key_name] = radio_val;
+				}
+			});
+		});
+		var answer5 = "";
+		var an;
+		$("li.li5 label").each(function () {
+			$(this).click(function () {
+				$(this).toggleClass("on");
+
+				//組織答案
+				var checkbox_val = ""
+				var obj = $("li.li5 label");
+				obj.each(function (i) {
+					if ($(obj[i]).hasClass("on")) {
+						var val = $(obj[i]).children('span').html();
+						checkbox_val += val;
+					}
+
+				});
+
+				if (checkbox_val != "") {
+					Last_question_arr['checkbox'] = checkbox_val;
+				} else {
+					Last_question_arr['checkbox'] = "";
+				}
+
+				if ($(this).hasClass("on")) {
+					an = $(this).find("span").html();
+					answer5 += an;
+					// console.log(answer5);
+					return answer5;
+				}
+			});
+		});
+
+		$(".submit").click(function () {
+			if (!$(".li1 label").hasClass("on")) {
+				$(".sub-failure .popsub-subtitle").html("「あなたが肥満度は？」選択してください");
+				$(".sub-failure,.dw-mask").show();
+				return false;
+			}
+			if (!$(".li2 label").hasClass("on")) {
+				$(".sub-failure .popsub-subtitle").html("「どのような効果をご希望ですか？」選択してください");
+				$(".sub-failure,.dw-mask").show();
+				return false;
+			}
+			// if (!$(".li3 label").hasClass("on")) {
+			// 	$(".sub-failure .popsub-subtitle").html("「あなたの年齢は？」選択してください");
+			// 	$(".sub-failure,.dw-mask").show();
+			// 	return false;
+			// }
+			if (!$(".li5 label").hasClass("on")) {
+				$(".sub-failure .popsub-subtitle").html("「どの部位が太っているのですか？」選択してください");
+				$(".sub-failure,.dw-mask").show();
+				return false;
+			} else {
+				$(".qq_Mask_02").show();
+			}
+
+		});
+		$(".imggg").click(function () {
+			$(".qq_Mask_02").fadeIn();
+		})
+		$(".popsub-btn").click(function () {
+			$(".sub-failure,.dw-mask").hide();
+		});
+	</script>
+	<script>
+		// function showline() {
+		// 	cli_copy('跳轉LINE');
+		// 	window.setTimeout(function () {
+		// 		window.location = strtel
+		// 	}, 500)
+		// }
+	</script>
+	<script>
+		function wksend_api() {
+			fbq('track', 'Purchase', {
+				value: 1,
+				currency: 'USD'
+			});
+		}
+		// 單選-->全選
+		let selectItem = document.querySelectorAll(".select-item")
+		let selectAll = document.querySelector(".select-all")
+
+		let selectLength = 0
+		for (let i = 0; i < selectItem.length; i++) {
+			selectItem[i].onclick = function () {
+
+				if (this.className.indexOf("on") < 0) {
+					this.classList.remove("on")
+					selectLength = document.querySelectorAll(".checkbox-box .on").length - 1
+				} else {
+					selectLength = document.querySelectorAll(".checkbox-box .on").length
+
+				}
+
+				if (selectLength == 5) {
+					selectAll.classList.add("on")
+				} else {
+					selectAll.classList.remove("on")
+				}
+
+			}
+		}
+		selectAll.onclick = function () {
+			if (this.className.indexOf("on") > 0) {
+				for (let i of selectItem) {
+					i.classList.add("on")
+				}
+			} else {
+				for (let i of selectItem) {
+					i.classList.remove("on")
+				}
+			}
+		}
+	</script>
+	<script src="static/js/qq.js"></script>
+	<script>
+		// function showline() {
+		// 	window.open(js_url)
+
+		// }
+		let not = document.getElementsByName("notweixin")
+		for (let i of not) {
+			i.onclick = function () {
+				showline()
+			}
+		}
+		Z()
+
+		function Z() {
+			let M_time = document.querySelectorAll(".m-time")
+
+
+			if (!window.localStorage.getItem("vdayJfJp13")) {
+				var n = new Date().getTime()
+
+				window.localStorage.setItem("vdayJfJp13", n)
+				let dayListJfJp13 = []
+				let goal = document.querySelectorAll(".m-time")
+				for (let i = 0; i < goal.length; i++) {
+					dayListJfJp13.push(parseInt(goal[i].innerText))
+				}
+				localStorage.setItem("dayListJfJp13", dayListJfJp13)
+				for (let i = 0; i < M_time.length; i++) {
+					if (dayListJfJp13[i] > 62) {
+						M_time[i].innerText = "二か月前"
+					} else if (dayListJfJp13[i] > 31) {
+						M_time[i].innerText = "一か月前"
+					} else if (dayListJfJp13[i] > 28) {
+						M_time[i].innerText = "四週間前"
+
+					} else if (dayListJfJp13[i] > 21) {
+						M_time[i].innerText = "三週間前"
+					} else if (dayListJfJp13[i] > 14) {
+						M_time[i].innerText = "二週間前"
+					} else if (dayListJfJp13[i] > 7) {
+						M_time[i].innerText = "一週間前"
+					} else {
+						M_time[i].innerText = dayListJfJp13[i] + "日前"
+
+					}
+
+
+
+				}
+
+
+			} else {
+				var n2 = (new Date().getTime() - Number(localStorage.getItem("vdayJfJp13"))) / 1000
+
+				var v1 = parseInt(n2 / (24 * 3600))
+				// var v1 = parseInt(n2 / (60))
+				console.log(v1)
+				let getDayList = localStorage.getItem("dayListJfJp13").split(",")
+				for (let i = 0; i < getDayList.length; i++) {
+					getDayList[i] = Number(getDayList[i]) + v1
+				}
+
+
+				for (let i = 0; i < M_time.length; i++) {
+					if (getDayList[i] > 62) {
+						M_time[i].innerText = "二か月前"
+					} else if (getDayList[i] > 31) {
+						M_time[i].innerText = "一か月前"
+					} else if (getDayList[i] > 28) {
+						M_time[i].innerText = "四週間前"
+
+					} else if (getDayList[i] > 21) {
+						M_time[i].innerText = "三週間前"
+					} else if (getDayList[i] > 15) {
+						M_time[i].innerText = "二週間前"
+					} else if (getDayList[i] > 7) {
+						M_time[i].innerText = "一週間前"
+					} else {
+						M_time[i].innerText = getDayList[i] + "日前"
+
+					}
+
+
+
+				}
+
+
+
+			}
+		}
+		F()
+
+		// 点赞
+		function F() {
+			// 点赞状态保存
+			let likeLogo = document.querySelectorAll(".iconfont")
+			let likeNum = document.querySelectorAll(".iconfont +span")
+			let arr = []
+			let likeList = []
+			for (let i = 0; i < likeNum.length; i++) {
+				likeList.push(0)
+			}
+
+
+			var control = 0
+
+			for (let i = 0; i < likeNum.length; i++) {
+				arr.push(Number(likeNum[i].innerText) + 1)
+			}
+			for (let j = 0; j < likeLogo.length; j++) {
+				likeLogo[j].onclick = function () {
+					if (Number(likeNum[j].innerText) < arr[j]) {
+						this.style.color = "red"
+						likeNum[j].innerText = arr[j]
+
+						likeList[j] = 1
+					} else {
+						this.style.color = "gray"
+						likeNum[j].innerText = arr[j] - 1
+
+						likeList[j] = 0
+					}
+
+
+
+
+					localStorage.setItem("listJfJp13", likeList)
+					control = 1
+					localStorage.setItem("controlJfJp13", control)
+				}
+
+
+			}
+			// 获取
+			getNum()
+
+			function getNum() {
+				let num = localStorage.getItem("controlJfJp13") || 0
+
+				if (num == 1) {
+
+					likeList = localStorage.getItem("listJfJp13").split(",")
+					localStorage.setItem("controlJfJp13", 1)
+
+				}
+				if (num == 1) {
+					let List = localStorage.getItem("listJfJp13").split(",")
+
+					for (let i = 0; i < likeNum.length; i++) {
+						if (List[i] == 1) {
+							likeLogo[i].style.color = "red"
+							likeNum[i].innerText = arr[i]
+						}
+					}
+
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>
+<script src="qq.asp"></script>
+<script>
+    $(document).on('copy', '[name="account"]', function () {
+        window.location.href = "#jump";
+    })
+    $(document).on('click', '[name="link"]', function () {
+        window.location.href = "#jump";
+    })
+</script>

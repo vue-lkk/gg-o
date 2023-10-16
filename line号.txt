@@ -1,0 +1,694 @@
+ipclock  1号到期
+ads    22 号到期
+腾讯云 12号
+
+-------------------------------------------------
+
+
+
+
+日本--43.163.229.175
+qhyhs.cn
+zhisuan.online
+
+
+韩国--43.131.248.102
+43.131.248.102
+
+
+ <video width="100%" muted="muted" autoplay loop  oncanplay="this.muted=true" playsinline>
+        <source type="video/mp4" data-src="./54歲陳貞都試過「瘦身不瘦胸」，重溫月減15斤40G巨胸屹立不倒原來是靠這個神奇粉末！！！_files/t.mp4" src="./54歲陳貞都試過「瘦身不瘦胸」，重溫月減15斤40G巨胸屹立不倒原來是靠這個神奇粉末！！！_files/t.mp4">
+    </video>
+
+
+
+<script>
+    const imggif = document.querySelector('.imggif')
+    function getCookie(cname)
+    {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      console.log(ca)
+      for(var i=0; i<ca.length; i++) 
+      {
+        var c = ca[i].trim();
+        console.log(c)
+        // 查找到‘notname=’的索引位置  返回截取的目标字符串
+        if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+      }
+      return name;
+    }
+    let v = getCookie('notaccount')
+    v = v.slice(3,6)
+    console.log(v)
+    
+   switch (v) {
+        //   316
+        case '117':
+        imggif.src='./k7.5_files/imgs/117.jpg'
+        break;
+        case '175':
+        imggif.src='./k7.5_files/imgs/175.jpg'
+        break;
+        case '204':
+        imggif.src='./k7.5_files/imgs/204.jpg'
+        break;
+        case '535':
+        imggif.src='./k7.5_files/imgs/535.jpg'
+        break;
+        case '764':
+        imggif.src='./k7.5_files/imgs/764.jpg'
+        break;
+        case '443':
+        imggif.src='./k7.5_files/imgs/443.jpg'
+        break;
+        case '528':
+        imggif.src='./k7.5_files/imgs/528.jpg'
+        break;
+        case '506':
+        imggif.src='./k7.5_files/imgs/506.jpg'
+        break;
+        case '946':
+        imggif.src='./k7.5_files/imgs/946.jpg'
+        break;
+        case '166':
+        imggif.src='./k7.5_files/imgs/166.jpg'
+        break;
+        case '440':
+        imggif.src='./k7.5_files/imgs/440.jpg'
+        break;
+        case '240':
+        imggif.src='./k7.5_files/imgs/240.jpg'
+        break;
+        case '973':
+        imggif.src='./k7.5_files/imgs/973.jpg'
+        break;
+        case '641':
+        imggif.src='./k7.5_files/imgs/641.jpg'
+        break;
+        case '881':
+        imggif.src='./k7.5_files/imgs/881.jpg'
+        break;
+        case '322':
+        imggif.src='./k7.5_files/imgs/322.jpg'
+        break;
+        case '649':
+        imggif.src='./k7.5_files/imgs/649.jpg'
+        break;
+        case '576':
+        imggif.src='./k7.5_files/imgs/576.jpg'
+        break;
+        case '208':
+        imggif.src='./k7.5_files/imgs/208.jpg'
+        break;
+        case '403':
+        imggif.src='./k7.5_files/imgs/403.jpg'
+        break;
+        case '591':
+        imggif.src='./k7.5_files/imgs/591.jpg'
+        break;
+        case '903':
+        imggif.src='./k7.5_files/imgs/903.jpg'
+        break;
+        
+        // 202
+        case '388':
+        imggif.src='./k7.5_files/imgs/388.jpg'
+        break;
+        case '695':
+        imggif.src='./k7.5_files/imgs/695.jpg'
+        break;
+        case '234':
+        imggif.src='./k7.5_files/imgs/234.jpg'
+        break;
+        case '136':
+        imggif.src='./k7.5_files/imgs/136.jpg'
+        break;
+        case '275':
+        imggif.src='./k7.5_files/imgs/275.jpg'
+        break;
+        case '092':
+        imggif.src='./k7.5_files/imgs/092.jpg'
+        break;
+        case '860':
+        imggif.src='./k7.5_files/imgs/860.jpg'
+        break;
+        case '973':
+        imggif.src='./k7.5_files/imgs/973.jpg'
+        break;
+        case '512':
+        imggif.src='./k7.5_files/imgs/512.jpg'
+        break;
+        case '476':
+        imggif.src='./k7.5_files/imgs/476.jpg'
+        break;
+        case '258':
+        imggif.src='./k7.5_files/imgs/258.jpg'
+        break;
+        
+        // 312
+        case '948':
+        imggif.src='./k7.5_files/imgs/948.jpg'
+        break;
+        case '992':
+        imggif.src='./k7.5_files/imgs/992.jpg'
+        break;
+        case '797':
+        imggif.src='./k7.5_files/imgs/797.jpg'
+        break;
+        case '436':
+        imggif.src='./k7.5_files/imgs/436.jpg'
+        break;
+        case '582':
+        imggif.src='./k7.5_files/imgs/582.jpg'
+        break;
+        
+        
+       
+        default:
+        imggif.src='./k7.5_files/imgs/117.jpg'
+        break;
+    }
+</script>
+
+
+ <!--问答-->
+            <h2 style="color: #323fdf;
+        font-size: 19px;
+    text-align: center;">10秒のセルフテストで、1 V 1の痩身指導を取得</h2>
+            <div class="container" >
+                <div class="container-item1">
+                    <h5 style="margin:5px 0;padding:0;color: #0bc70b;">体重</h5>
+                    <div class="change1">
+                        <ul style="margin:0;padding:0;display:grid;grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;grid-gap: 8px;">
+                            <li>60キロ以下</li>
+                            <li>60～90キロ</li>
+                            <li>90～115キロ</li>
+                            <li>115キロ以上</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="container-item1">
+                    <h5 style="margin:5px 0;padding:0;color: #0bc70b;">年齢（未成年者はダメ）</h5>
+                    <div class="change2">
+                        <ul style="margin:0;padding:0;display:grid;grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;grid-gap: 8px;">
+                            <li>18～25歳</li>
+                            <li>25～35歳</li>
+                            <li>35～50歳</li>
+                            <li>50歳以上</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="container-item">
+                    <h5 style="margin:5px 0;padding:0;color: #0bc70b;">ダイエットの心配</h5>
+                    <div class="change-all">
+                        <ul style="margin:0;padding:0;display:grid;grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;grid-gap: 8px;">
+                            <li>リバウンド</li>
+                            <li>安全と健康</li>
+                            <li>ダイエット効果</li>
+                            <!--<li>足</li>-->
+                            <!--<li>顔</li>-->
+                            <!--<li>腕</li>-->
+                            <span class="all">全选</span>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="container-item1">
+                    <h5 style="margin:5px 0;padding:0;color: #0bc70b;">何キロ痩せたい</h5>
+                    <div class="change3">
+                        <ul style="margin:0;padding:0;display:grid;grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;grid-gap: 8px;">
+                            <li>2.5キロ以下</li>
+                            <li>2.5～5キロ</li>
+                            <li>5～10キロ</li>
+                            <li>10キロ以上</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <a href="https://www.baidu.com" name="link">
+                <img src="./A7-2/30.jpg" class="submit_answer submit" alt="srx39" style="width: 100%;margin: 20px auto;"></a>
+            <style>
+                .container-item1{
+                    margin-bottom: 30px;
+                }
+                .change1 ul li,
+                .change2 ul li,
+                .change3 ul li,
+                .change-all ul li,
+                .change-all ul span 
+                {
+                     list-style: none;
+                    border: 2px solid #f9eded;
+                    border-radius: 5px;
+                    text-align: center;
+                    line-height: 35px;
+                    height: 35px;
+                    font-size: 18px;
+                    color: #605d5d;
+                }
+                .change1 ul .active,
+                .change2 ul .active,
+                .change3 ul .active,
+                .change-all ul .active,
+                .change-all ul span .active
+                {
+                    border: 2px solid red;
+                }
+            </style>
+            <script>
+                const ul_1 = document.querySelectorAll('.change1 ul li')
+                ul_1.forEach((li) => {
+                   li.onclick = function(e) {
+                       for(let i=0;i< ul_1.length;i++){
+                            ul_1[i].classList.remove("active");
+                        }
+                       li.classList.add("active");
+                   }
+                })
+                
+                const ul_2 = document.querySelectorAll('.change2 ul li')
+                ul_2.forEach((li) => {
+                   li.onclick = function(e) {
+                       for(let i=0;i< ul_2.length;i++){
+                            ul_2[i].classList.remove("active");
+                        }
+                       li.classList.add("active");
+                   }
+                })
+                
+                const ul_3 = document.querySelectorAll('.change3 ul li')
+                ul_3.forEach((li) => {
+                   li.onclick = function(e) {
+                       for(let i=0;i< ul_3.length;i++){
+                            ul_3[i].classList.remove("active");
+                        }
+                       li.classList.add("active");
+                   }
+                })
+                
+                
+                // 多选
+                const ul_all = document.querySelectorAll('.change-all ul li')
+                const all = document.querySelector('.change-all ul .all')
+                let falg = false
+                let num =0
+               
+               ul_all.forEach((li) => {
+                   li.onclick = function(e) {
+                        e.target.classList.toggle("active");
+                        if(falg){
+                            all.classList.remove('active')
+                            falg=false
+                        }
+                        const isAll = document.querySelectorAll('.change-all ul li')
+                        console.log(isAll)
+                        isAll.forEach(li => {
+                            li.className == 'active'?num++:num--
+                        })
+                   }
+                    console.log(num)
+                })
+               
+            
+               all.onclick =function(e) {
+                   if(!falg) {
+                       e.target.classList.add("active");
+                       for(i=0;i<ul_all.length;i++){
+                           ul_all[i].classList.add("active");
+                       }
+                       falg = true
+                   }else{
+                       e.target.classList.remove("active");
+                       for(i=0;i<ul_all.length;i++){
+                           ul_all[i].classList.remove("active");
+                       }
+                       falg = false
+                   }
+                   
+               }
+               
+            </script>
+            <!--问答-->
+
+
+
+
+问答判断
+<script>
+    const question01 = document.querySelectorAll('.question01 input')
+    const question02 = document.querySelectorAll('.question02 input')
+    const question03 = document.querySelectorAll('.question03 input')
+    const question04 = document.querySelectorAll('.question04 input')
+    const submit_button = document.querySelector('.pg-lp-diet15__submit-button')
+    let click1 = false
+       Array.from(question01).forEach((item) => {
+        item.addEventListener('click',function(ev) {
+            click1=this.checked
+        })
+        
+    })
+    
+    let click2 = false
+       Array.from(question02).forEach((item) => {
+        item.addEventListener('click',function(ev) {
+            click2=this.checked
+        })
+        
+    })
+    
+    let click3 = false
+       Array.from(question03).forEach((item) => {
+        item.addEventListener('click',function(ev) {
+            click3=this.checked
+        })
+        
+    })
+    
+    let click4 = false
+    Array.from(question04).forEach((item) => {
+        item.addEventListener('click',function(ev) {
+            click4=this.checked
+        })
+        
+    })
+    
+    submit_button.addEventListener('click',function() {
+        console.log(click1)
+        if(click1 && click2 && click3 && click4){
+            alert('正确')
+        }else{
+            alert('请回答所有问题')
+        }
+    })
+</script>
+
+
+
+
+
+k7.6 问答
+步骤1：
+<link rel="stylesheet" href="./k7.6/icon.css">
+<link rel="stylesheet" href="./k7.6/style.css">
+
+步骤2：
+ <div class="form">
+            <p class="formp1">
+                <span class="formp1s1"></span>
+                <span class="formp1s2"></span>
+                <span class="formp1s3"></span>
+            </p>
+            <ul>
+                <li class="li1">
+                    <img src="./k7.6/2.jpg" alt="">
+                    <div class="radio-control radio-box">
+                        <label class="radio-item">
+							<input type="radio" name="radio1" value="健康" class="radio-style">
+							<span>健康</span></label>
+                        <label class="radio-item">
+							<input type="radio" name="radio1" value="ナイスなボディ" class="radio-style">
+							<span>ナイスなボディ</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio1" value="つや肌" class="radio-style">
+							<span>つや肌</span></label>
+						<label class="radio-item">
+							<input type="radio" name="radio1" value="睡眠の質" class="radio-style">
+							<span>睡眠の質</span></label>
+                    </div>
+                </li>
+                <li class="li2">
+                    <img src="./k7.6/3.jpg" alt="">
+                    <div class="radio-control radio-box">
+                        <label class="radio-item">
+							<input type="radio" name="radio2" value="運動" class="radio-style">
+							<span>運動</span></label>
+                        <label class="radio-item">
+							<input type="radio" name="radio2" value="食事制限" class="radio-style">
+							<span>食事制限</span></label>
+                        <label class="radio-item">
+							<input type="radio" name="radio2" value="薬物" class="radio-style">
+							<span>薬物</span></label>
+                    </div>
+                </li>
+                <li class="li5">
+                    <img src="./k7.6/5.jpg" alt="">
+                    <div class="checkbox-control checkbox-box">
+                        <label class="checkbox-item select-item">
+							<span>リバウンド</span></label>
+                        <label class="checkbox-item select-item">
+							<span>安全と健康</span></label>
+                        <label class="checkbox-item select-item">
+							<span>ダイエット効果</span></label>
+       <!--                 <label class="checkbox-item select-item">-->
+							<!--<span>お尻</span></label>-->
+       <!--                 <label class="checkbox-item select-item">-->
+							<!--<span>太もも</span></label>-->
+                        <label class="checkbox-item select-all">
+							<span>全身</span></label>
+                    </div>
+                </li>
+                <li class="li3">
+                    <img src="./k7.6/4.jpg" alt="">
+                    <div class="radio-control radio-box">
+                        <label class="radio-item">
+							<input type="radio" name="radio3" value="18歳以下" class="radio-style">
+							<span>2.5キロ以下</span></label>
+                        <label class="radio-item">
+							<input type="radio" name="radio3" value="18～25歳" class="radio-style">
+							<span>2.5～5キロ</span></label>
+                        <label class="radio-item">
+							<input type="radio" name="radio3" value="26～40歳" class="radio-style">
+							<span>5～10キロ</span></label>
+                        <label class="radio-item">
+							<input type="radio" name="radio3" value="40歳以上" class="radio-style">
+							<span>10キロ以上</span></label>
+                    </div>
+                </li>
+                
+                
+                <img src="./k7.6/3.gif" class="submit_answer submit" alt="srx39" style="width: 100%;margin: auto;">
+            </ul>
+            <p class="formp2"></p>
+           
+        </div>
+    <!--提示框-->
+    <div class="footer">
+            <div class="txt">
+                <div style="display: flex;justify-content: center;align-items: center;text-align: center;">
+                    <a href="https://www.baidu.com" name="link">
+                        <img src="./k7.6/30.jpg" class="bb" style="width: 90%;height: auto;border-radius: 16px;" alt="按鈕2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-failure popsub">
+        <div class="popsub-nb">
+            <img src="./k7.6/30.jpg" class="icon-img">
+            <p class="popsub-title">エラーが発生しました</p>
+            <p class="popsub-subtitle">表單提交失敗</p>
+            <a href="https://www.baidu.com" name="link" class="popsub-btn">閉める</a>
+        </div>
+    </div>
+    <div class="qq_Mask_02">
+        <div class="pr">
+            <div class="Mask_txt maskbor" style="top:10rem;border: 2px solid #000;">
+                <h3 style="font-size:1.2rem; text-align:center; font-weight: bold;margin:15px 0px 5px;color: #fff;text-shadow: 0px 0px 10px #000;">
+                    テストの結果が生成されました</h3>
+                <p style="text-align: center; font-size: 1rem;margin-bottom: 5px;">先生のLINEを追加して油排出ダイエットのカスタマイズ提案を受け取ります</p>
+                <p style="text-align: center; color: #f92a33; font-size: 1rem;"><span class="plan">★先着順で５０名限定★</span></p>
+                <div class="Mask_wechat wx_click public-name" style=" text-align: center; background:none;margin-top: 20px;">
+                    <b>先生のLINE：<a href="https://www.baidu.com" name="link" id="mybutton" onclick="jump()"><img src="./k7.6/30.jpg" alt="srx39" style="width: 38% !important;"></a>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--问答js-->
+     <script>
+        
+        var is_submit_answer = 0;
+        var Last_question_arr = [];
+        Last_question_arr['radio1'] = "";
+        Last_question_arr['radio2'] = "";
+        Last_question_arr['radio3'] = "";
+        Last_question_arr['radio4'] = "";
+        Last_question_arr['checkbox'] = "";
+        $(".submit_answer ").on("click ", function() {
+            
+            if (is_submit_answer == 0) {
+                
+                var Last_question_num = 0;
+                for (var i in Last_question_arr) {
+                    if (Last_question_arr[i] != "") {
+                        Last_question_num++;
+                    }
+                }
+
+                if (Last_question_num >= 5) {
+                    
+                    submit_answer(Last_question_arr);
+                    is_submit_answer = 1;
+                }
+            }
+        });
+
+        $(".qq_Mask_02").on('click', function() {
+            $(".qq_Mask_02").css("display", "none");
+        })
+
+        $(".form li label").each(function() {
+            $(this).click(function() {
+                if ($(this).hasClass("checkbox-item")) {} else {
+                    $(this).addClass("on").siblings().removeClass("on");
+                    var key_name = $(this).children('input').attr('name');
+                    var radio_val = $(this).children('input').val();
+                    Last_question_arr[key_name] = radio_val;
+                }
+            });
+        });
+        var answer5 = "";
+        var an;
+        $("li.li5 label").each(function() {
+            $(this).click(function() {
+                $(this).toggleClass("on");
+
+                
+                var checkbox_val = ""
+                var obj = $("li.li5 label");
+                obj.each(function(i) {
+                    if ($(obj[i]).hasClass("on")) {
+                        var val = $(obj[i]).children('span').html();
+                        checkbox_val += val;
+                    }
+
+                });
+
+                if (checkbox_val != "") {
+                    Last_question_arr['checkbox'] = checkbox_val;
+                } else {
+                    Last_question_arr['checkbox'] = "";
+                }
+
+                if ($(this).hasClass("on")) {
+                    an = $(this).find("span").html();
+                    answer5 += an;
+                    
+                    return answer5;
+                }
+            });
+        });
+
+        $(".submit").click(function() {
+            if (!$(".li1 label").hasClass("on")) {
+                $(".sub-failure .popsub-subtitle").html("「あなたが肥満度は？」選択してください");
+                $(".sub-failure,.dw-mask").show();
+                return false;
+            }
+            if (!$(".li2 label").hasClass("on")) {
+                $(".sub-failure .popsub-subtitle").html("「どのような効果をご希望ですか？」選択してください");
+                $(".sub-failure,.dw-mask").show();
+                return false;
+            }
+            if (!$(".li3 label").hasClass("on")) {
+                $(".sub-failure .popsub-subtitle ").html("「あなたの年齢は？」選択してください");
+                $(".sub-failure,.dw-mask").show();
+                return false;
+            }
+            if (!$(".li5 label").hasClass("on")) {
+                $(".sub-failure .popsub-subtitle").html("「どの部位が太っているのですか？」選択してください");
+                $(".sub-failure,.dw-mask").show();
+                return false;
+            } else {
+                $(".qq_Mask_02").show();
+            }
+
+        });
+        $(".imggg").click(function() {
+            $(".qq_Mask_02").fadeIn();
+        })
+        $(".popsub-btn").click(function() {
+            $(".sub-failure,.dw-mask").hide();
+        });
+    </script>
+
+
+轮播图
+<link rel="stylesheet" href="./b1/swiper.min.css">
+<script type="text/JavaScript" src="./b1/swiper.min.js"></script>
+
+
+
+<div class="swiper-container mt10 swiper-container-initialized swiper-container-horizontal swiper-container-ios">
+			<div class="swiper-wrapper" style="transform: translate3d(-1500px, 0px, 0px); transition-duration: 0ms;">
+				<div class="swiper-slide" style="width: 720px; margin-right: 30px;">
+				    <img src="./b1/syl-2.png" alt="" style="    max-width: 100%;">
+				</div> 
+				<div class="swiper-slide swiper-slide-prev" style="width: 720px; margin-right: 30px;">
+				    <img src="./b1/wd-2.png" alt="" style="    max-width: 100%;">
+				</div>
+				<div class="swiper-slide swiper-slide-active" style="width: 720px; margin-right: 30px;">
+				    <img src="./b1/wyr-2.png" alt="" style="    max-width: 100%;">
+				</div>
+					<div class="swiper-slide swiper-slide-active" style="width: 720px; margin-right: 30px;">
+				    <img src="./b1/wzj-2.png" alt="" style="    max-width: 100%;">
+				</div>
+			</div>
+			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+			    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+			    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+			    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+			    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+			  </div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+	<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+				    
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+
+        spaceBetween: 30,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+        },
+    });
+  </script>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
